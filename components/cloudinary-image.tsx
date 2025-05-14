@@ -37,7 +37,7 @@ export function CloudinaryImage({
   width = 800,
   height = 600,
   priority = false,
-  quality = 80,
+  quality = 85,
   className,
   objectFit = "cover",
   objectPosition = "center",

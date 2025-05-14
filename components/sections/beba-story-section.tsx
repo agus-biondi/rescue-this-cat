@@ -60,8 +60,8 @@ export default function BebaStorySection() {
               <CloudinaryImage
                 src="https://res.cloudinary.com/dszhwrn7m/image/upload/v1747062993/9C1B91C1-97AE-4358-9238-4036AA4945F0_tmy6qo.jpg"
                 alt="Beba with her siblings cuddling together"
-                width={320}
-                height={320}
+                width={480}
+                height={480}
                 priority={true}
                 className="h-full w-full rounded-md"
               />
@@ -96,8 +96,8 @@ export default function BebaStorySection() {
               <CloudinaryImage
                 src="https://res.cloudinary.com/dszhwrn7m/image/upload/v1747091111/after_surgery_ocs61z.jpg"
                 alt="Beba recovering after her first eye surgery"
-                width={320}
-                height={320}
+                width={480}
+                height={480}
                 priority={true}
                 className="h-full w-full rounded-md"
               />

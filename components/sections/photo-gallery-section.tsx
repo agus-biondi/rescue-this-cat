@@ -221,8 +221,8 @@ function InstantPhoto({ src, alt, title, rotate = 0, delay = 0, isPreloaded = fa
         <CloudinaryImage
           src={src}
           alt={alt}
-          width={320}
-          height={320}
+          width={480}
+          height={480}
           className="h-full w-full rounded-md"
           priority={isPreloaded} // Use priority when images are preloaded
         />
