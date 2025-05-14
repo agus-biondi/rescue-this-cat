@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import AnimatedSectionHeader from "@/components/animated-section-header"
+import { CloudinaryVideo } from "@/components/cloudinary-video"
 
 export default function SpiritSection() {
   return (
@@ -27,29 +28,24 @@ export default function SpiritSection() {
         {/* Video embed in the Her Spirit section */}
         <div className="flex justify-center items-center my-8">
           <motion.div
-            className="relative w-80 overflow-hidden rounded-md bg-white p-4 shadow-xl transform-3d"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
-            style={{ rotate: `-2deg` }}
+            style={{ rotate: `-4deg` }}
             whileHover={{
               scale: 1.05,
               boxShadow: "0 20px 30px rgba(0, 0, 0, 0.2)",
               transition: { duration: 0.3 },
             }}
           >
-            <div className="relative w-full" style={{ aspectRatio: "3/4" }}>
-              <iframe
-                src="https://player.cloudinary.com/embed/?cloud_name=dszhwrn7m&public_id=PXL_20250126_012728263_exported_stabilized_1746938550034_ocrnbm_1_zx9pdg&profile=beba&autoplay=true&loop=true&muted=true&playsinline=true&bigPlayButton=true&autoPlayMode=always&preload=auto"
-                allow="autoplay; encrypted-media; picture-in-picture"
-                className="h-full w-full object-cover rounded-md"
-                frameBorder="0"
-              ></iframe>
-            </div>
-            <h3 className="mt-4 text-center text-xl font-bold bg-gradient-to-r from-pink-500 via-lavender-500 to-teal-500 text-transparent bg-clip-text">
-              Play Time!
-            </h3>
+            <CloudinaryVideo
+              publicId="PXL_20250126_012728263_exported_stabilized_1746938550034_ocrnbm_1_zx9pdg"
+              title="Play Time!"
+              originalWidth={1080}
+              originalHeight={1440}
+              width={320}
+            />
           </motion.div>
         </div>
       </motion.div>

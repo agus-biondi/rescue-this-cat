@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import AnimatedSectionHeader from "@/components/animated-section-header"
+import { CloudinaryVideo } from "@/components/cloudinary-video"
 
 export default function RecoverySection() {
   return (
@@ -25,7 +26,6 @@ export default function RecoverySection() {
         {/* Video embed for "Recovering After Second Surgery" */}
         <div className="flex justify-center items-center my-8">
           <motion.div
-            className="relative w-80 overflow-hidden rounded-md bg-white p-4 shadow-xl transform-3d"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
@@ -37,17 +37,13 @@ export default function RecoverySection() {
               transition: { duration: 0.3 },
             }}
           >
-            <div className="relative w-full" style={{ aspectRatio: "3/4" }}>
-              <iframe
-                src="https://player.cloudinary.com/embed/?cloud_name=dszhwrn7m&public_id=PXL_20250402_165224087_exported_stabilized_1746938686028_zx6c74_v4gg2k&profile=beba&autoplay=true&loop=true&muted=true&playsinline=true&bigPlayButton=true&autoPlayMode=always&preload=auto"
-                allow="autoplay; encrypted-media; picture-in-picture"
-                className="h-full w-full object-cover rounded-md"
-                frameBorder="0"
-              ></iframe>
-            </div>
-            <h3 className="mt-4 text-center text-xl font-bold bg-gradient-to-r from-pink-500 via-lavender-500 to-teal-500 text-transparent bg-clip-text">
-              Post Surgery Stretching!
-            </h3>
+            <CloudinaryVideo
+              publicId="PXL_20250402_165224087_exported_stabilized_1746938686028_zx6c74_v4gg2k"
+              title="Post Surgery Stretching!"
+              originalWidth={1536}
+              originalHeight={2040}
+              width={320}
+            />
           </motion.div>
         </div>
       </motion.div>

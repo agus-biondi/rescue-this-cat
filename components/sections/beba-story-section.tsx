@@ -3,14 +3,9 @@
 import { motion } from "framer-motion"
 import { PawPrintIcon as Paw } from "lucide-react"
 import AnimatedSectionHeader from "@/components/animated-section-header"
-import type { MotionValue } from "framer-motion"
 import { CloudinaryImage } from "@/components/cloudinary-image"
 
-interface BebaStorySectionProps {
-  smoothProgress?: MotionValue<number>
-}
-
-export default function BebaStorySection({ smoothProgress }: BebaStorySectionProps) {
+export default function BebaStorySection() {
   return (
     <section className="w-full py-8 px-4 md:px-8 max-w-4xl mx-auto relative">
       <motion.div

@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import Image from "next/image"
+import { CloudinaryImage } from "@/components/cloudinary-image"
 
 interface Photo {
   title: string
@@ -67,7 +67,7 @@ export default function PhotoCarousel() {
   }
 
   // Handle swipe gestures
-  const handleDragEnd = (e, { offset, velocity }) => {
+  const handleDragEnd = (_e: MouseEvent | TouchEvent | PointerEvent, { offset, velocity }: { offset: { x: number }, velocity: { x: number } }) => {
     const swipeThreshold = 50
     if (offset.x < -swipeThreshold && velocity.x < -0.3) {
       nextSlide()
@@ -120,13 +120,15 @@ export default function PhotoCarousel() {
               className="absolute inset-0 flex flex-col"
             >
               <div className="relative flex-1 rounded-lg overflow-hidden">
-                <Image
-                  src={photos[currentIndex].image || "/placeholder.svg"}
+                <CloudinaryImage
+                  src={photos[currentIndex].image}
                   alt={photos[currentIndex].title}
-                  fill
-                  className="object-cover"
+                  width={700}
+                  height={500}
+                  priority={true}
+                  className="h-full w-full"
+                  objectFit="cover"
                   sizes="(max-width: 768px) 100vw, 700px"
-                  priority
                 />
               </div>
               <div className="mt-4 text-center">

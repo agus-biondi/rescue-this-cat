@@ -62,7 +62,7 @@ export default function PhotoGallerySection() {
   }
 
   // Handle swipe gestures
-  const handleDragEnd = (e, { offset, velocity }) => {
+  const handleDragEnd = (_e: MouseEvent | TouchEvent | PointerEvent, { offset, velocity }: { offset: { x: number }, velocity: { x: number } }) => {
     const swipeThreshold = 50
     if (offset.x < -swipeThreshold && velocity.x < -0.3) {
       nextSlide()

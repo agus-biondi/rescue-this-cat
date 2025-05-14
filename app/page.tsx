@@ -1,7 +1,5 @@
 "use client"
 
-import { useRef } from "react"
-import { useSpring } from "framer-motion"
 import FloatingAdoptButton from "@/components/floating-adopt-button"
 import ScrollDownArrow from "@/components/scroll-down-arrow"
 import { UIProvider } from "@/context/ui-context"
@@ -18,19 +16,9 @@ import AdoptSection from "@/components/sections/adopt-section"
 import FooterSection from "@/components/sections/footer-section"
 
 export default function Home() {
-  // Simplified - remove the complex scroll tracking that might be causing interruptions
-  const containerRef = useRef(null)
-
-  // Create a simple spring animation for components that need it
-  const smoothProgress = useSpring(0, {
-    stiffness: 100,
-    damping: 30,
-    restDelta: 0.001,
-  })
-
   return (
     <UIProvider>
-      <main ref={containerRef} className="flex min-h-screen flex-col items-center overflow-x-hidden">
+      <main className="flex min-h-screen flex-col items-center overflow-x-hidden">
         {/* Decorative background elements */}
         <div className="fixed inset-0 -z-10 bg-gradient-to-b from-lavender-50 via-pink-50 to-teal-50 opacity-70"></div>
         <div className="fixed inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-pink-100 via-transparent to-transparent opacity-40"></div>
@@ -41,7 +29,7 @@ export default function Home() {
         {/* Scroll Down Arrow */}
         <ScrollDownArrow />
 
-        {/* Sections - remove the smoothProgress prop that's not being used effectively */}
+        {/* Sections */}
         <HeroSection />
         <BebaStorySection />
         <ComplicationsSection />
