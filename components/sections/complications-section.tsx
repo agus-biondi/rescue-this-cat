@@ -43,8 +43,8 @@ export default function ComplicationsSection() {
               <CloudinaryImage
                 src="https://res.cloudinary.com/dszhwrn7m/image/upload/v1747091108/standing_with_bleeding_eye_zzdhz1.jpg"
                 alt="Beba before her second surgery with some healing complications"
-                width={320}
-                height={320}
+                width={480}
+                height={480}
                 className="h-full w-full rounded-md"
               />
             </div>

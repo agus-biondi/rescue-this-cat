@@ -3,6 +3,8 @@
 import FloatingAdoptButton from "@/components/floating-adopt-button"
 import ScrollDownArrow from "@/components/scroll-down-arrow"
 import { UIProvider } from "@/context/ui-context"
+import { useEffect, useRef } from "react"
+import { track } from "@vercel/analytics"
 
 // Import section components
 import HeroSection from "@/components/sections/hero-section"
@@ -15,7 +17,35 @@ import PhotoGallerySection from "@/components/sections/photo-gallery-section"
 import AdoptSection from "@/components/sections/adopt-section"
 import FooterSection from "@/components/sections/footer-section"
 
+function useScrollDepthTracking(sampleRate = 0.1) {
+
+  const fortyTracked = useRef(false);
+  const eightyTracked = useRef(false);
+
+  useEffect(() => {
+    const shouldSample = Math.random() < sampleRate;
+    if (!shouldSample) return;
+
+    function handleScroll() {
+      const scrollDepth = window.scrollY + window.innerHeight;
+      const docHeight = document.documentElement.scrollHeight;
+      const percent = scrollDepth / docHeight;
+      if (!fortyTracked.current && percent > 0.4) {
+        track(`ScrollDepthSR-${sampleRate}`, { percent: 40 });
+        fortyTracked.current = true;
+      }
+      if (!eightyTracked.current && percent > 0.8) {
+        track(`ScrollDepthSR-${sampleRate}`, { percent: 80 });
+        eightyTracked.current = true;
+      }
+    }
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+}
+
 export default function Home() {
+  useScrollDepthTracking(1);
   return (
     <UIProvider>
       <main className="flex min-h-screen flex-col items-center overflow-x-hidden">

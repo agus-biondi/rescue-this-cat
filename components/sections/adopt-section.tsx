@@ -6,6 +6,7 @@ import { Heart, ExternalLink, MapPin, Home } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import AnimatedSectionHeader from "@/components/animated-section-header"
 import ConfettiExplosion from "@/components/confetti-explosion"
+import { track } from "@vercel/analytics"
 
 export default function AdoptSection() {
   const [isConfettiActive, setIsConfettiActive] = useState(false)
@@ -15,6 +16,7 @@ export default function AdoptSection() {
   const mapsLink = "https://maps.app.goo.gl/gYEsJicezpMz6nHN9"
 
   const handleAdoptClick = () => {
+    track('CTA_Clicked', { label: 'Adopt Beba' });
     // Just trigger the confetti without preventing default behavior
     setIsConfettiActive(true)
 
