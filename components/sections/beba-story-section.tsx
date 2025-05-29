@@ -37,7 +37,7 @@ export default function BebaStorySection() {
         }}
       >
         <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-          Beba was born as stray cat near Maria's backyard. For months, she lived quietly with her siblings, until Maria
+          Beba was born as stray cat near Maria and Eduardo's backyard. For months, she lived quietly with her siblings, until Maria
           noticed something was wrong with Beba's eyes.
         </p>
 
@@ -73,7 +73,7 @@ export default function BebaStorySection() {
         </div>
 
         <p className="text-lg text-gray-700 mb-4 leading-relaxed mt-4">
-          Maria raced Beba to a vet, which revealed serious trauma to both eyes. Beba's right eye had to be removed, and while the left eye was saved,
+          They raced Beba to a vet, which revealed serious trauma to both eyes. Beba's right eye had to be removed, and while the left eye was saved,
           it's now permanently scarred. She was also diagnosed as FIV-positive.
         </p>
 
@@ -109,7 +109,7 @@ export default function BebaStorySection() {
         </div>
 
         <p className="text-lg text-gray-700 mb-4 leading-relaxed mt-4">
-          Thankfully, Maria sponsored all of Beba's veterinary care. Beba went to recover with foster parents Agustín and Sofía, who nursed her back to health.
+          Thankfully, Maria and Eduardo sponsored all of Beba's veterinary care. Beba went to recover with foster parents Agustín and Sofía, who nursed her back to health.
         </p>
       </motion.div>
     </section>
