@@ -1,0 +1,254 @@
+[
+    {
+        "id": "18887338",
+        "name": "Warrior",
+        "species": "Dog",
+        "intakeDate": "2022-12-24T14:07:00.000Z",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/18887/18887338/94991870.jpg?width=500"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/18887/18887338/98037701.png?width=500"
+            }
+        ]
+    },
+    {
+        "id": "20193107",
+        "name": "TIAO aka Marley",
+        "species": "Dog",
+        "intakeDate": "2024-01-31T16:16:00.000Z",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20193/20193107/97865101.jpg"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20193/20193107/100495771.jpg?width=500"
+            }
+        ]
+    },
+    {
+        "id": "16404146",
+        "name": "Boy",
+        "species": "Cat",
+        "intakeDate": "2021-01-05T00:00:00.000Z",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/16404/16404146/76264014.jpg?width=500"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/16404/16404146/101197662.jpg"
+            }
+        ]
+    },
+    {
+        "id": "16691102",
+        "name": "Pratt",
+        "species": "Cat",
+        "intakeDate": "2021-04-08T00:00:00.000Z",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/16691/16691102/79724073.jpg?width=500"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/16691/16691102/101152472.jpg"
+            }
+        ]
+    },
+    {
+        "id": "16794706",
+        "name": "Luthor",
+        "species": "Cat",
+        "intakeDate": "2021-05-16T00:00:00.000Z",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/16794/16794706/78723249.jpg"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/16794/16794706/101152334.jpg"
+            }
+        ]
+    },
+    {
+        "id": "17497731",
+        "name": "Rose",
+        "species": "Cat",
+        "intakeDate": "2021-11-27T00:00:00.000Z",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/17497/17497731/95867273.jpg"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/17497/17497731/101197659.jpg"
+            }
+        ]
+    },
+    {
+        "id": "17848867",
+        "name": "Mystery",
+        "species": "Cat",
+        "intakeDate": "2022-03-11T00:00:00.000Z",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/17848/17848867/97387061.jpg?width=500"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/17848/17848867/101152459.jpg"
+            }
+        ]
+    },
+    {
+        "id": "17949217",
+        "name": "Milena",
+        "species": "Cat",
+        "intakeDate": "2022-04-18T00:00:00.000Z",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/17949/17949217/90123439.jpg?width=500"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/17949/17949217/101197695.jpg"
+            }
+        ]
+    },
+    {
+        "id": "18193456",
+        "name": "Sunset",
+        "species": "Cat",
+        "intakeDate": "2022-06-24T00:00:00.000Z",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/18193/18193456/88977848.jpg?width=500"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/18193/18193456/101197676.jpg"
+            }
+        ]
+    },
+    {
+        "id": "18629435",
+        "name": "Pluto",
+        "species": "Cat",
+        "intakeDate": "2022-10-14T00:00:00.000Z",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/18629/18629435/93030127.jpg?width=500"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/18629/18629435/101198279.jpg"
+            }
+        ]
+    },
+    {
+        "id": "18940217",
+        "name": "BELTZA",
+        "species": "Cat",
+        "intakeDate": "2023-01-12T00:00:00.000Z",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/18940/18940217/93897295.jpg"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/18940/18940217/101197669.jpg"
+            }
+        ]
+    },
+    {
+        "id": "19063224",
+        "name": "CAROLINA",
+        "species": "Cat",
+        "intakeDate": "2023-02-26T00:00:00.000Z",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19063/19063224/95654297.jpg?width=500"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19063/19063224/101197667.jpg"
+            }
+        ]
+    },
+    {
+        "id": "19657874",
+        "name": "ELIAS",
+        "species": "Cat",
+        "intakeDate": "2023-08-18T00:00:00.000Z",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19657/19657874/96033898.jpg?width=500"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19657/19657874/101152361.jpg?width=500"
+            }
+        ]
+    },
+    {
+        "id": "19658210",
+        "name": "PARKER",
+        "species": "Cat",
+        "intakeDate": "2023-08-18T00:00:00.000Z",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19658/19658210/96034094.jpg?width=500"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19658/19658210/101152091.jpg"
+            }
+        ]
+    },
+    {
+        "id": "19754178",
+        "name": "Sawyer",
+        "species": "Cat",
+        "intakeDate": "2023-09-10T00:00:00.000Z",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19754/19754178/96336064.jpg"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19754/19754178/101151981.jpg"
+            }
+        ]
+    },
+    {
+        "id": "19796993",
+        "name": "SUN",
+        "species": "Cat",
+        "intakeDate": "2023-09-18T00:00:00.000Z",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19796/19796993/97012493.jpg"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19796/19796993/101152404.jpg"
+            }
+        ]
+    },
+    {
+        "id": "20566787",
+        "name": "MATEO",
+        "species": "Cat",
+        "intakeDate": "2024-06-16T00:00:00.000Z",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20566/20566787/98615691.jpg"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20566/20566787/101197687.jpg"
+            }
+        ]
+    },
+    {
+        "id": "20583892",
+        "name": "NATHANIEL",
+        "species": "Cat",
+        "intakeDate": "2024-06-21T00:00:00.000Z",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20583/20583892/99471927.jpg"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20583/20583892/101151986.jpg"
+            }
+        ]
+    }
+]
