@@ -20,10 +20,12 @@
         "intakeDate": "2024-01-31T16:16:00.000Z",
         "photos": [
             {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20193/20193107/97865101.jpg"
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20193/20193107/97865101.jpg",
+                "objectPosition": "1/4"
             },
             {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20193/20193107/100495771.jpg?width=500"
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20193/20193107/100495771.jpg?width=500",
+                "objectPosition": "1/4"
             }
         ]
     },
@@ -34,7 +36,8 @@
         "intakeDate": "2021-01-05T00:00:00.000Z",
         "photos": [
             {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/16404/16404146/76264014.jpg?width=500"
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/16404/16404146/76264014.jpg?width=500",
+                "objectPosition": "1/4"
             },
             {
                 "url": "https://cdn.rescuegroups.org/9665/pictures/animals/16404/16404146/101197662.jpg"
@@ -118,7 +121,8 @@
         "intakeDate": "2022-06-24T00:00:00.000Z",
         "photos": [
             {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/18193/18193456/88977848.jpg?width=500"
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/18193/18193456/88977848.jpg?width=500",
+                "objectPosition": "top"
             },
             {
                 "url": "https://cdn.rescuegroups.org/9665/pictures/animals/18193/18193456/101197676.jpg"
@@ -149,7 +153,8 @@
                 "url": "https://cdn.rescuegroups.org/9665/pictures/animals/18940/18940217/93897295.jpg"
             },
             {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/18940/18940217/101197669.jpg"
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/18940/18940217/101197669.jpg",
+                "objectPosition": "1/4"
             }
         ]
     },
@@ -160,10 +165,12 @@
         "intakeDate": "2023-02-26T00:00:00.000Z",
         "photos": [
             {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19063/19063224/95654297.jpg?width=500"
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19063/19063224/95654297.jpg?width=500",
+                "objectPosition": "1/4"
             },
             {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19063/19063224/101197667.jpg"
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19063/19063224/101197667.jpg",
+                "objectPosition": "1/4"
             }
         ]
     },
@@ -216,7 +223,8 @@
         "intakeDate": "2023-09-18T00:00:00.000Z",
         "photos": [
             {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19796/19796993/97012493.jpg"
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19796/19796993/97012493.jpg",
+                "objectPosition": "1/4"
             },
             {
                 "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19796/19796993/101152404.jpg"
@@ -244,10 +252,12 @@
         "intakeDate": "2024-06-21T00:00:00.000Z",
         "photos": [
             {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20583/20583892/99471927.jpg"
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20583/20583892/99471927.jpg",
+                "objectPosition": "1/4"
             },
             {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20583/20583892/101151986.jpg"
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20583/20583892/101151986.jpg",
+                "objectPosition": "top"
             }
         ]
     }

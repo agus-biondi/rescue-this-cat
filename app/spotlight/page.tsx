@@ -5,6 +5,8 @@ import { motion, AnimatePresence } from "framer-motion"
 import { animals } from "@/lib/animal-data"
 import AnimalDisplay from "@/components/animal-display"
 import { wrap } from "@/lib/utils"
+import { useImagePreloader } from "@/hooks/use-image-preloader"
+import Starfield from "@/components/starfield"
 
 const variants = {
   enter: (direction: number) => ({
@@ -50,6 +52,11 @@ export default function AnimalShelterPage() {
     setPage([page + newDirection, newDirection])
   }
 
+  const imageUrls = animals.flatMap((animal) =>
+    animal.photos.map((p) => p.url)
+  )
+  useImagePreloader(imageUrls)
+
   const AUTO_ADVANCE_INTERVAL = 15000
 
   useEffect(() => {
@@ -70,6 +77,7 @@ export default function AnimalShelterPage() {
 
   return (
     <main className="min-h-screen w-full flex flex-col items-center justify-center relative overflow-hidden select-none bg-gradient-to-br from-slate-50 via-blue-50/30 to-purple-50/20 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900">
+      <Starfield />
       <AnimatePresence initial={false} custom={direction} mode="wait">
         <motion.div
           key={page}
