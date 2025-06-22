@@ -8,9 +8,8 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Meet Beba - A Special Cat Looking for a Forever Home",
-  description:
-    "Learn about Beba, an FIV+ cat with an incredible story of resilience who is looking for her forever home.",
-    generator: 'v0.dev'
+  description: "A temporary page to find Beba a home.",
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -19,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head>
         <link rel="icon" href="/favicon.png" type="image/png" />
       </head>
