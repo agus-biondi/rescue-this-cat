@@ -59,34 +59,6 @@
         ]
     },
     {
-        "id": "16794706",
-        "name": "Luthor",
-        "species": "Cat",
-        "intakeDate": "2021-05-16T00:00:00.000Z",
-        "photos": [
-            {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/16794/16794706/78723249.jpg"
-            },
-            {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/16794/16794706/101152334.jpg"
-            }
-        ]
-    },
-    {
-        "id": "17497731",
-        "name": "Rose",
-        "species": "Cat",
-        "intakeDate": "2021-11-27T00:00:00.000Z",
-        "photos": [
-            {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/17497/17497731/95867273.jpg"
-            },
-            {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/17497/17497731/101197659.jpg"
-            }
-        ]
-    },
-    {
         "id": "17848867",
         "name": "Mystery",
         "species": "Cat",
@@ -159,36 +131,6 @@
         ]
     },
     {
-        "id": "19063224",
-        "name": "CAROLINA",
-        "species": "Cat",
-        "intakeDate": "2023-02-26T00:00:00.000Z",
-        "photos": [
-            {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19063/19063224/95654297.jpg?width=500",
-                "objectPosition": "1/4"
-            },
-            {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19063/19063224/101197667.jpg",
-                "objectPosition": "1/4"
-            }
-        ]
-    },
-    {
-        "id": "19657874",
-        "name": "ELIAS",
-        "species": "Cat",
-        "intakeDate": "2023-08-18T00:00:00.000Z",
-        "photos": [
-            {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19657/19657874/96033898.jpg?width=500"
-            },
-            {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19657/19657874/101152361.jpg?width=500"
-            }
-        ]
-    },
-    {
         "id": "19658210",
         "name": "PARKER",
         "species": "Cat",
@@ -213,21 +155,6 @@
             },
             {
                 "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19754/19754178/101151981.jpg"
-            }
-        ]
-    },
-    {
-        "id": "19796993",
-        "name": "SUN",
-        "species": "Cat",
-        "intakeDate": "2023-09-18T00:00:00.000Z",
-        "photos": [
-            {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19796/19796993/97012493.jpg",
-                "objectPosition": "1/4"
-            },
-            {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/19796/19796993/101152404.jpg"
             }
         ]
     },
@@ -258,6 +185,123 @@
             {
                 "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20583/20583892/101151986.jpg",
                 "objectPosition": "top"
+            }
+        ]
+    },
+    {
+        "id": "21256610",
+        "name": "Zip",
+        "species": "Cat",
+        "intakeDate": "2025-02-03T00:00:00.000Z",
+        "notes": "Approximately 6 years old",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/21256/21256610/101152339.jpg"
+            }
+        ]
+    },
+    {
+        "id": "20899838",
+        "name": "Jaxon",
+        "species": "Cat",
+        "intakeDate": "2024-09-24T00:00:00.000Z",
+        "notes": "Approximate birthday: May 2024",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20899/20899838/101152372.jpg"
+            }
+        ]
+    },
+    {
+        "id": "20897685",
+        "name": "Cold",
+        "species": "Cat",
+        "intakeDate": "2024-06-06T00:00:00.000Z",
+        "notes": "No additional notes available",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20897/20897685/99724990.jpg"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20897/20897685/101152389.jpg"
+            }
+        ]
+    },
+    {
+        "id": "20899832",
+        "name": "Dominic",
+        "species": "Cat",
+        "intakeDate": "2024-06-24T00:00:00.000Z",
+        "notes": "No additional notes available",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20899/20899832/101152414.jpg"
+            }
+        ]
+    },
+    {
+        "id": "20219041",
+        "name": "Katia",
+        "species": "Cat",
+        "intakeDate": "2024-11-02T00:00:00.000Z",
+        "notes": "Approximate birthday: December 2022",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20219/20219041/98916508.jpg?width=500"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20219/20219041/101152477.jpg?width=500"
+            }
+        ]
+    },
+    {
+        "id": "20560476",
+        "name": "Cassandra",
+        "species": "Cat",
+        "intakeDate": "2023-12-19T00:00:00.000Z",
+        "notes": "Approximate birthday: December 2023",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20560/20560476/101967154.jpg"
+            }
+        ]
+    },
+    {
+        "id": "20359004",
+        "name": "Lucy",
+        "species": "Cat",
+        "intakeDate": "2024-04-07T00:00:00.000Z",
+        "notes": "Approximate birthday: May 2023",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20359/20359004/101152496.jpg"
+            }
+        ]
+    },
+    {
+        "id": "21343231",
+        "name": "Darren",
+        "species": "Cat",
+        "intakeDate": "2025-11-03T00:00:00.000Z",
+        "notes": "Approximate birthday: October 2024",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/21343/21343231/101244483.jpg"
+            },
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/21343/21343231/101763616.jpg"
+            }
+        ]
+    },
+    {
+        "id": "21938278",
+        "name": "Theador",
+        "species": "Cat",
+        "intakeDate": "2025-05-10T00:00:00.000Z",
+        "notes": "Approximate birthday: October 2023",
+        "photos": [
+            {
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/21938/21938278/101967144.jpg"
             }
         ]
     }
