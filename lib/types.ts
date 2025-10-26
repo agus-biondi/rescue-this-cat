@@ -8,6 +8,6 @@ export interface Animal {
   id: string
   name: string
   intakeDate: string // ISO date string
-  photos: [AnimalPhoto, AnimalPhoto]
+  photos: AnimalPhoto[]
   species?: string
 }

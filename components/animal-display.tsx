@@ -50,11 +50,11 @@ export default function AnimalDisplay({ animal }: AnimalDisplayProps) {
         className="text-4xl sm:text-5xl md:text-6xl font-bold pt-8 text-slate-900 dark:text-white"
       />
 
-      <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-8 w-full sm:w-4/5 md:w-3/4 lg:w-2/3 h-full flex-grow my-4">
-        {[animal.photos[0], animal.photos[1]].map((photo, index) => (
+      <div className={`flex ${animal.photos.length === 1 ? 'flex-col' : 'flex-col sm:flex-row'} items-center justify-center gap-4 md:gap-8 w-full sm:w-4/5 md:w-3/4 lg:w-2/3 h-full flex-grow my-4`}>
+        {animal.photos.map((photo, index) => (
           <motion.div
             key={`${animal.id}-photo-${index}`}
-            className="flex flex-col items-center w-full sm:w-1/2 h-full"
+            className={`flex flex-col items-center ${animal.photos.length === 1 ? 'w-full max-w-md' : 'w-full sm:w-1/2'} h-full`}
             variants={photoVariants}
             initial="hidden"
             animate="visible"
