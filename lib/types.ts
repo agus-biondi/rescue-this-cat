@@ -10,5 +10,4 @@ export interface Animal {
   intakeDate: string // ISO date string
   photos: [AnimalPhoto, AnimalPhoto]
   species?: string
-  notes?: string
 }
