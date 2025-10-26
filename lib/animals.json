@@ -247,10 +247,12 @@
         "notes": "Approximate birthday: December 2022",
         "photos": [
             {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20219/20219041/98916508.jpg?width=500"
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20219/20219041/98916508.jpg?width=500",
+                "scale": 0.9
             },
             {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20219/20219041/101152477.jpg?width=500"
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20219/20219041/101152477.jpg?width=500",
+                "objectPosition": "bottom"
             }
         ]
     },
@@ -262,7 +264,8 @@
         "notes": "Approximate birthday: December 2023",
         "photos": [
             {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20560/20560476/101967154.jpg"
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20560/20560476/101967154.jpg",
+                "scale": 0.9
             }
         ]
     },
@@ -274,7 +277,8 @@
         "notes": "Approximate birthday: May 2023",
         "photos": [
             {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20359/20359004/101152496.jpg"
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/20359/20359004/101152496.jpg",
+                "objectPosition": "bottom"
             }
         ]
     },
@@ -286,7 +290,8 @@
         "notes": "Approximate birthday: October 2024",
         "photos": [
             {
-                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/21343/21343231/101244483.jpg"
+                "url": "https://cdn.rescuegroups.org/9665/pictures/animals/21343/21343231/101244483.jpg",
+                "scale": 0.9
             },
             {
                 "url": "https://cdn.rescuegroups.org/9665/pictures/animals/21343/21343231/101763616.jpg"

@@ -68,6 +68,9 @@ export default function AnimalDisplay({ animal }: AnimalDisplayProps) {
                 objectFit="cover"
                 objectPosition={getObjectPositionValue(photo.objectPosition)}
                 priority={index === 0}
+                style={{
+                  transform: photo.scale ? `scale(${photo.scale})` : undefined,
+                }}
               />
             </div>
           </motion.div>
